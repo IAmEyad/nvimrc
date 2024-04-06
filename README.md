@@ -11,6 +11,7 @@ Followed his video [0 to LSP : Neovim RC From Scratch](https://www.youtube.com/w
 # Some additional requirements
 - Some of the LSPs require `NPM` and `Node`, make sure you have those setup.
 - Some of the LSPs require `unzip` to be installed.
+- [Packer](https://github.com/wbthomason/packer.nvim)
 
 # Things that'll probably change
 Since I'm fairly new to using neovim as my primary editor, here are somethings I'll likely change:
