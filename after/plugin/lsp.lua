@@ -20,12 +20,11 @@ end)
 require('mason').setup({})
 require('mason-lspconfig').setup({
   ensure_installed = {
-	  'tsserver', 'rust_analyzer', 
-	  'pyright','gopls', 
-	  'lua_ls', 'dockerls', 
-	  'docker_compose_language_service',
-	  'jsonls','tflint',
-	  'yamlls','eslint',
+	  'rust_analyzer', 
+	  'gopls', 'basedpyright',
+	  'lua_ls',
+	  'jsonls',
+	  'yamlls',
 	  'cssls','sqlls','html'
   },
 
